@@ -77,8 +77,8 @@ exports.makePayment=async(req,res)=>{
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:5173/payment-success",
-      cancel_url: "http://localhost:5173/payment-error",
+      success_url: "house-construction-frontend.vercel.app/payment-success",
+      cancel_url: "house-construction-frontend.vercel.app/payment-error",
       metadata: {
         projectId: project._id?.toString(),
         projectname: project.projectname,
