@@ -2,7 +2,7 @@
 const express = require('express')
 
 //4 import contractorController
-const contractorController = require('../Controllers/contractorController')
+const contractorController = require('../controllers/contractorController')
 
 const adminJwtMiddleware = require('../middlewares/adminJwtMiddleware')
 

@@ -2,7 +2,7 @@
 const express = require('express')
 
 //4 import workController
-const workController = require('../Controllers/workController')
+const workController = require('../controllers/workController')
 
 const adminJwtMiddleware = require('../middlewares/adminJwtMiddleware')
 
